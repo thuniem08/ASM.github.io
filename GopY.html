@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp Ý</title>
+    <link rel="stylesheet" href="./CSS/GopY.css">
+</head>
+
+<body>
+
+    <section class="featback" id="featback"></section>
+    <!-- Messengger -->
+    <!-- <script src="https://uhchat.net/code.php?f=70dd53"></script> -->
+    <!-- đề mục đầu dòng -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>PHẢN HỒI</span> </h2> <br>
+            <p>Chúng tôi quan tâm tới trải nghiệm của bạn.</p>
+            <br /><br /><br />
+            <div class="chiase">Chia sẻ cảm nhận của bạn với các dịch vụ tại khách sạn.</div>
+        </div>
+        <!-- icon liên kết mạng xã hội    -->
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/ccbvl/"><img src="./images/FB.png" width="100px" height="100px"></a></li>
+            <li><a href="https://www.instagram.com/TheCocaColaCo/"><img src="./images/INSTARGRAM.png" width="100px"
+                        height="100px"></a></li>
+            <li><a href="https://twitter.com/cocacola"><img src="./images/TWITER.png" width="100px" height="100px"></a></li>
+        </ul>
+        <br /><br /><br /><br /><br /><br /><br />
+        <p align="center">Hoặc gữi tin nhắn trực tiếp đến website của hotel.</p>
+
+        <!-- bản đồ -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Pdw1H3qzD0txY3PO3Hx27DpMBSSt387Z" width="300"
+                height="300" right="1000px"></iframe>
+        </div>
+        <div class="chantrang">
+            <p>Trang web thuộc sở hữu độc quyền của </p>
+            <br />
+            <p>Tạ Thị Thu Niềm - PS24443</p>
+            
+
+        </div>
+
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+            <li><a href="ThongTin.html">Liên Hệ</a></li>
+            <li><a href="GopY.html">Góp Ý</a></li>
+            <li><a href="Dangky.html">Check in online tại đây</a></li>
+        </ul>
+    </nav>
+    <img src="./images/iconMeNu.png" id="menuBtn">
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

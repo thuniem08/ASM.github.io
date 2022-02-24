@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Đăng Kí</title>
+    <link rel="stylesheet" href="./CSS/Dangky.css">
+</head>
+<body>
+
+    <!-- Messengger -->
+   <!-- <script src="https://uhchat.net/code.php?f=70dd53"></script> -->
+
+    <section class="contact">
+        <div class="title">
+            <h2 class="titleText"><span>Đ</span>ăng ký</h2> <br>
+            <p>Kết nối với chúng tôi để lan tỏa những điều tốt đẹp.</p>
+        </div>
+
+        <div class="contactForm">
+            <h3>Đăng ký Dịch Vụ</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Họ và tên">
+            </div>
+
+            <div align="left">   
+                Giới tính:
+            <label><input type="radio" name="gioitinh" /> Nam</label>
+            <label><input type="radio" name="gioitinh" /> Nữ</label> 
+            </div><br/>
+
+            <div  align="left" >
+                Ngày sinh:
+                <input type="date">
+            </div>
+
+            <br/>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Nickname">
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Email hoặc số điện thoại">
+            </div>
+            
+            <div class="inputBox">
+                <input type="password" placeholder="Mật khẩu">
+            </div>
+
+            <div class="inputBox">
+                <input type="password" placeholder="Nhập lại mật khẩu vừa đăng nhập">
+            </div>
+
+            <div align="left">
+                <label><input type="radio" />  Remember me?</label>
+            </div>
+<br/>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+            
+            <li><a href="ThongTin.html">Liên Hệ</a></li>
+            <li><a href="GopY.html">Góp Ý</a></li>
+            <li><a href="DangKy.html">Check in online tại đây</a></li>
+        </ul>
+    </nav>
+    <img src="./images/iconMeNu.png" id="menuBtn">
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuB
+        
+        
+        
+        tn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+
+</body>
+</html>
